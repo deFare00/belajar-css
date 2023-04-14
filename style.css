@@ -3,6 +3,7 @@ h1 {
     color: red;
 }
 
+/* Learn box model */
 p {
     width: 100px;
     height: 50px;
