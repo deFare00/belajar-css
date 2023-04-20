@@ -4,6 +4,7 @@ h1 {
 }
 
 /* Learn box model */
+/*
 div {
     width: 250px;
     height: auto;
@@ -12,8 +13,37 @@ div {
     text-align: center;
     padding: 0 20px;
 }
+*/
+
+article {
+    border: 2px solid black;
+    width: 550px;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 0;
+}
 
 article p:first-of-type{
     color: red;
     font-size: 1.5em;
+}
+
+.my-class {
+    width: 500px;
+    height: auto;
+    border: 2px solid green;
+}
+
+.box1{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.box2 {
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
 }
